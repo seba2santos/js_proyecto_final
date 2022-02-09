@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "promName": "Bodas",
+        "description": "150 invitados, servicio de mozos, dj (opcional)"
+    },
+    {
+        "id": 2,
+        "promName": "Cumples",
+        "description": "100 invitados, servicio de mozos, barra de tragos libre"
+    },
+    {
+        "id": 3,
+        "promName": "Noches románticas",
+        "description": "Cena en muestro restaurant, habitación ambientada, desayuno a la habitación"
+    }
+
+]

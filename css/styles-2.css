@@ -1,0 +1,553 @@
+/* Estilos del main en el index */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(255, 192, 203, 0.335);
+}
+.logo {
+    box-shadow: none;
+    width: 20%;
+}
+.navbar-brand {
+    width: 30%;
+}
+.menu-item {
+    margin: 1.5em !important;
+    font-size: 1.5em!important;
+}
+.book {
+    color: #bb4d32;
+    border-color: #bb4d32;
+}
+.book:hover {
+    background-color: #bb4d32;
+    color: #fff;
+}
+.book a {
+    text-decoration: none;
+    color: #f4f4f4
+}
+/* Hasta aquí el nav */
+
+
+/* video */
+
+.video {
+    width: 100%;
+}
+
+
+#about {
+    width: 80%;
+    margin: auto;
+    
+}
+#about .title {
+    margin: 2em 0;
+    font-family: 'Mea Culpa';
+    font-size: 2.7em;
+    text-align: center;
+}
+
+#about p {
+    line-height: 2em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.main-places {
+    margin-top: 2em;
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.main-places .col {
+    padding: 2em;
+}
+.main-places .parrDescription {
+    width: 100%;
+    margin: auto;
+    padding: 1.3em;
+   
+}
+.main-places .col img {
+    box-shadow: 60px -16px  rgba(100 100 100 .8);
+}
+.logo-footer {
+    width: inherit
+}
+#confirm-message {
+    width: 80%;
+    margin-top: 2em !important;
+    margin: auto;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 1.5em;
+}
+.presentacion {
+    width: 100vw;
+}
+.message {
+    width: 80%;
+    margin-top: 2em !important;
+    margin: auto;
+    background-color: #f4f4f4;
+    padding: 2em;
+    border: 3px solid red;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+/* media queries del index */
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .logo {
+        width: 45% !important
+    }
+    .presentacion {
+        position: relative !important;
+       
+        width: 100%;
+        background: transparent !important;
+        height: fit-content
+    }
+    .main-places {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .main-places .parrDescription {
+        position: 2;
+    }
+    #gallery img {
+        width: 85% !important;
+    }
+
+    
+}
+@media (min-width: 1024px) {
+    #gallery img {
+        width: 85% !important;
+    }
+}
+@media (max-width: 766px) {
+
+    .logo {
+        width: 70% !important;
+    }
+    .container-cards {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+    .container-cards div {
+        width: 60% !important;
+        margin: 1em;
+        
+    }
+    .cards {
+        width: 100%;
+        margin: auto;
+    }
+   
+    .images {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .images img {
+        width: 60%;
+    }
+    .modal-content {
+        position: fixed;
+        top: 20%;
+    }
+    #gallery img {
+        width: 100% !important;
+    }
+ 
+    .close {
+        position: absolute;
+        top: 20% !important;
+    }
+    #restaurant-form {
+        width: 100% !important;
+        left: 0!important;
+        top: 0 !important;
+        height: 100vh;
+        background-color: #f0a491 !important;
+    }
+    #restaurant-form .form-input {
+        width: 90%;
+        padding: .5em;
+        margin-bottom: .5em;
+    }
+    .row-form .check {
+        display: flex;
+        flex-direction: column;
+        width: 80% !important;
+    }
+    .datos {
+        flex-direction: column;
+        width: 80% !important;
+    }
+    .datos input {
+        margin-bottom: 1em;
+    }
+    .cross {
+        left: 0 !important;
+        top: 0 !important;
+    }
+    .btn-form {
+        width: 80% !important;
+        margin-top: .5em !important;
+        padding: .3em !important;
+    }
+
+    /* ***Formulario */
+
+    
+}
+
+
+
+
+
+/* Formulario de reservas */
+
+
+.row-form {
+    flex-wrap: wrap;
+}
+.row-form .check {
+    width: 20% ;
+}
+
+.boton {
+width: 100%;
+}
+.h3 {
+    margin: 1.5em;
+    color: #bb4d32;
+}
+
+.images {
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    margin: auto;
+}
+.images img {
+    width: 35%;
+}
+.price {
+    text-align: center;
+    margin: .5em;
+    color: #bb4d32;
+}
+.datos {
+    display: flex;
+    width: 50%;
+    padding: 1em;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+.title-cards {
+    color: #bb4d32;
+    text-align: center;
+    margin: 2em 0;
+    font-size: 3em;
+    font-family: 'Mea Culpa';
+}
+.btn-search {
+    background-color: #f0a491;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.btn-search:hover {
+    background-color: #f08469;
+}
+#cards-prom {
+    display: flex;
+    flex-direction: column;
+}
+ .container-cards {
+     display: flex;
+     justify-content: space-between;
+     width: 90%;
+     flex-wrap: wrap;
+     margin: auto;
+     margin-top: 2em;
+ }
+ .container-cards div {
+    width: 30%;
+    min-height: 150px;
+    background-color: #fff;
+    border: 3px solid rgba(128, 128, 128, 0.37);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 1.5em;
+    justify-content: baseline;
+    text-align: center;
+    margin-bottom: 2em;
+} 
+.container-cards div .transparent {
+    border: 2px solid #bb4d32;
+}
+.container-cards-2 {
+    display: none;
+}
+
+
+#container-form {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+}
+    
+#container-form span {
+    width: 100%;
+    margin: auto;
+    font-size: 1.3em;
+    color: #000;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+#container-form #prom-form {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100%;
+margin: 2em auto;
+padding: 1.5em;
+border: 3px solid #f0a491;
+background-color: #fff;
+border-radius: 10px;
+}
+#container-form #prom-form input {
+    width: 35%;
+    padding: .8em;
+    border-radius: 5px;
+
+}
+#container-form #prom-form #enviar {
+    color: #fff;
+    margin-top: .5em;
+}
+#back {
+    padding: .7em;
+    border: 2px solid;
+    border-radius: 5px;
+    letter-spacing: .2em;
+}
+
+
+
+.container-footer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+}
+.container-footer span {
+    color: rgba(255, 255, 255, 0.815);
+}
+
+/* ***** galeria ***** */
+
+.title {
+    text-align: center;
+    color:#bb4d32;
+    margin: 2em auto;
+    width: 100%;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#gallery img {
+    width: 30%;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+.modal-content {
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    
+}
+
+.presentacion .h1, .span-descripcion {
+    font-family: 'Mea Culpa';
+    font-size: 3em;
+}
+.span-descripcion {
+    font-size: 1.8rem !important;
+}
+
+/* ****** restaurant ****** */
+.title-restaurant {
+    font-family: 'Mea Culpa';
+    font-size: 3em;
+    margin-top: 0 !important;
+    padding: 2em;
+    color: #fff;
+    background-color: rgba(231, 104, 243, 0.493)
+}
+.contenedor-paralax {
+    background:url(../media/restaurant/restaurant-paralax.jpg); 
+	background-size:cover; 
+	background-attachment:fixed;
+}
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2em;
+   
+}
+
+.content p {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(231, 104, 243, 0.493);
+    padding: 1.5em;
+}
+#container-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content img {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: .7s ease-in-out all;
+}
+.content img.animate {
+    transform: translateY(100px);
+}
+.content img.visible {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+}
+#container-body img {
+    width: 70%;
+    margin: 2em auto;
+
+}
+#container-body p {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+
+.reserva-restaurant {
+    padding: 1.2em;
+    color: rgb(236, 199, 236);
+    border: 3px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .2);
+    cursor: pointer;
+    transition: all ease 1000ms;
+    font-size: 1.5em;
+}
+.reserva-restaurant:hover {
+    background-color: rgb(68, 55, 68);
+}
+#restaurant-form {
+    display: none;
+    width: 80%;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3em;
+    border: 4px solid #fff;
+    position: fixed;
+    top: 15vh;
+    left: 10%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.form-input {
+    width: 50%;
+    padding: 1.5em;
+    margin-bottom: 2em;
+
+}
+.form-input::placeholder {
+    text-align: center;
+    font-style: italic;
+}
+.cross {
+    font-size: 3em;
+    position: absolute;
+    left: .35em;
+    top: 0;
+    cursor: pointer;
+    padding: 0 .4em;
+    border-radius: 70%;
+    z-index: 1;
+}
+.cross:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.btn-form {
+    width: 50%;
+    margin-top: 1.5em;
+    padding: 1.5em 0;
+    color:rgb(255, 255, 255);
+    background-color: rgb(97, 33, 97);
+    font-size: 1.4em;
+}
+.btn-form:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid;
+}
+#confirm-table-reserve {
+    display: none;
+    width: 80%;
+    position: fixed;
+    top: 20vh;
+    left: 10vw;
+    background-color: #fff;
+    border: 3px solid red;
+    text-align: center;
+    padding: 3em;
+
+
+}

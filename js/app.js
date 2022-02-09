@@ -1,0 +1,2 @@
+filtered.addEventListener('click', showMessage); 
+

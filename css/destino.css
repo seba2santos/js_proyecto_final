@@ -1,0 +1,973 @@
+main {
+  padding: 0; }
+/*   main .presentacion {
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 28%; }
+    main .presentacion h1 {
+      font-size: 3em;
+      color: #14213d; }
+    main .presentacion span {
+      color: #14213d;
+      font-size: 1.3em; } */
+      body main .presentacion {
+        position: absolute;
+        top: 60%;
+        left: 0;
+        width: 100%;
+        height: 30vh;
+        margin: auto;
+        background: rgba(212, 207, 207, 0.726); 
+        text-align: center;
+        }
+        body main .presentacion h1, body main .presentacion span {
+          color: #bb4d32; }
+        body main .presentacion h1 {
+          font-size: 2rem; 
+          margin-top: 2em;}
+        body main .presentacion span {
+          font-size: 0.8rem ; }
+  main .form-reserv {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #ede9f0;
+    padding-top: 2em;
+    text-align: center; }
+    main .form-reserv .container-check {
+      width: 90%;
+      margin: auto; }
+      main .form-reserv .container-check .row-form {
+        display: flex;
+        margin-top: .2em;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        border: 1px solid #bb4d32;
+        border-radius: .5em;
+        background-color: rgba(255, 192, 203, 0.287); }
+        main .form-reserv .container-check .row-form .check {
+          width: 80%;
+          margin: auto;
+          margin-top: .5em;
+          margin-bottom: .5em; }
+      main .form-reserv .container-check .boton {
+        width: 100%;
+        text-align: center; }
+        main .form-reserv .container-check .boton .btn-search {
+          margin-top: 1.5em;
+          background-color: rgba(255, 166, 0, 0.548);
+          padding: .6em;
+          color: #f4f4f4;
+          border-radius: .5em;
+          border: 1.5px solid;
+          letter-spacing: .7em;
+          font-size: 1.3em; }
+        main .form-reserv .container-check .boton .btn-search:hover {
+          background-color: #FF890A;
+          font-weight: bold; }
+  main .container-fluid {
+    background-color: #ede9f0; }
+    main .container-fluid .description {
+      width: 80%;
+      margin: auto !important; }
+      main .container-fluid .description .h2-description {
+        font-size: 2em;
+        margin-top: 0;
+        color: #bb4d32;
+        padding: 2em;
+        margin: auto;
+        text-align: center; }
+      main .container-fluid .description .text-center {
+        margin: 2em;
+        line-height: 1.5em;
+        font-size: 1em;
+        color: #FF890A;
+        line-height: 3em; }
+    main .container-fluid .vivencias {
+      width: 100%;
+      display: grid;
+      justify-content: center;
+      padding-bottom: 2.5em; }
+      main .container-fluid .vivencias .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #bb4d32;
+        margin-top: 2em;
+        margin-bottom: 2em; }
+      main .container-fluid .vivencias .imgs {
+        display: flex;
+        flex-wrap: nowrap;
+        column-gap: 2em; }
+        main .container-fluid .vivencias .imgs .img {
+          position: relative; }
+          main .container-fluid .vivencias .imgs .img img {
+            height: 100%;
+            transition: all 400ms ease-out; }
+          main .container-fluid .vivencias .imgs .img .ver {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(165, 160, 160, 0.3);
+            opacity: 0;
+            text-align: center;
+            transition: all 500ms ease-out;
+            padding: 30%; }
+            main .container-fluid .vivencias .imgs .img .ver span {
+              color: #fff;
+              text-align: center; }
+          main .container-fluid .vivencias .imgs .img .dos {
+            display: none; }
+          main .container-fluid .vivencias .imgs .img .ver:hover {
+            opacity: 1; }
+  main .fotos .container-fluid {
+    background-color: #fff;
+    align-items: center;
+    margin-top: 2em; }
+    main .fotos .container-fluid .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #bb4d32;
+      margin-top: 2em;
+      margin-bottom: 2em; }
+    main .fotos .container-fluid .palmera {
+      margin-top: 4em; }
+    main .fotos .container-fluid .parrafoImg {
+      margin: 2em;
+      line-height: 1.5em;
+      font-size: 1em;
+      color: #FF890A;
+      line-height: 3em;
+      align-self: center; }
+    main .fotos .container-fluid .piscina {
+      margin-top: 3em;
+      flex-direction: row-reverse; }
+  main .container {
+    margin-top: 6em; }
+    main .container .tit-prom {
+      font-size: 2em;
+      color: #14213d;
+      margin-bottom: 1.5em; }
+    main .container .p-prom {
+      font-size: 1.5em; }
+    main .container .bg-naranja {
+      background-color: #f1d296; }
+
+footer .centro {
+  padding-left: 0;
+  justify-content: center !important; }
+
+footer .redes {
+  justify-content: center;
+  padding-left: 0 !important; }
+  footer .redes li {
+    margin: auto; }
+
+footer .text-center {
+  color: #fff;
+  text-align: center !important; }
+
+footer {
+  padding: 4em 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  justify-content: space-between; }
+  footer .col-img {
+    display: flex;
+    width: 30%;
+    align-self: start; }
+    footer .col-img img {
+      width: 50%;
+      margin-left: 10%; }
+    footer .col-img ul a {
+      color: #fff;
+      text-decoration: none; }
+    footer .col-img ul a:hover {
+      color: #55656b; }
+  footer .col {
+    width: 30%; }
+    footer .col ul li {
+      list-style: none;
+      color: #fff; }
+  footer .redes {
+    display: flex; }
+    footer .redes li {
+      list-style: none;
+      padding: 1em; }
+      footer .redes li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1em; }
+      footer .redes li a:hover {
+        color: #55656b; }
+  footer .col-terms {
+    align-self: start; }
+    footer .col-terms li {
+      list-style: none; }
+      footer .col-terms li a {
+        text-decoration: none;
+        color: #fff; }
+      footer .col-terms li a:hover {
+        color: #55656b; }
+
+.services .masajes {
+  background-image: url(../media/servicios/toalla_velas.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .services .masajes .descripcion-masajes {
+    width: 50%; }
+    .services .masajes .descripcion-masajes .h2 {
+      color: #bb4d32;
+      padding-top: 2em;
+      padding-bottom: 2em;
+      margin: 0 1em; }
+    .services .masajes .descripcion-masajes .h3 {
+      color: #bb4d32;
+      padding-top: 1em;
+      padding-bottom: 1em; }
+    .services .masajes .descripcion-masajes p {
+      margin: 2em;
+      line-height: 1.5em;
+      font-size: 1em;
+      color: #FF890A;
+      line-height: 3em; }
+    .services .masajes .descripcion-masajes .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #bb4d32;
+      margin-top: 2em;
+      margin-bottom: 2em; }
+      .services .masajes .descripcion-masajes .title i {
+        color: #bb4d32; }
+
+.services .spa {
+  background-image: url(../media/servicios/terapia_facial.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: right;
+  text-align: center; }
+  .services .spa .descripcion-spa {
+    width: 50%;
+    display: flex;
+    flex-direction: column; }
+    .services .spa .descripcion-spa .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #bb4d32;
+      margin-top: 2em;
+      margin-bottom: 2em; }
+      .services .spa .descripcion-spa .title .h2 {
+        color: #bb4d32;
+        margin: 0 1em;
+        padding-top: 2em;
+        padding-bottom: 2em; }
+      .services .spa .descripcion-spa .title i {
+        color: #bb4d32; }
+    .services .spa .descripcion-spa .h3 {
+      color: #bb4d32;
+      padding-top: 1em;
+      padding-bottom: 1em; }
+    .services .spa .descripcion-spa p {
+      margin: 2em;
+      line-height: 1.5em;
+      font-size: 1em;
+      color: #FF890A;
+      line-height: 3em; }
+
+.services .cabalgatas {
+  background-image: url(../media/servicios/mujer-agachada-acariciando-caballo.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center; }
+  .services .cabalgatas .descripcion-cabalgatas {
+    display: flex;
+    flex-direction: column;
+    width: 50%; }
+    .services .cabalgatas .descripcion-cabalgatas .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #bb4d32;
+      margin-top: 2em;
+      margin-bottom: 2em; }
+      .services .cabalgatas .descripcion-cabalgatas .title h2 {
+        color: #bb4d32;
+        margin: 0 1em;
+        padding-top: 2em;
+        padding-bottom: 2em; }
+      .services .cabalgatas .descripcion-cabalgatas .title i {
+        color: #bb4d32; }
+    .services .cabalgatas .descripcion-cabalgatas .h3 {
+      color: #bb4d32;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin: auto; }
+    .services .cabalgatas .descripcion-cabalgatas p {
+      margin: 2em;
+      line-height: 1.5em;
+      font-size: 1em;
+      color: #FF890A;
+      line-height: 3em; }
+
+.lg-galery {
+  background-color: #ede9f0;
+  text-align: center;
+  width: 100%;
+  display: contents; }
+  .lg-galery .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bb4d32;
+    margin-top: 2em;
+    margin-bottom: 2em; }
+    .lg-galery .title .h2 {
+      color: #bb4d32;
+      padding-top: 2em;
+      padding-bottom: 2em;
+      margin: 0 1em; }
+  .lg-galery .galeria {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100vh; }
+    .lg-galery .galeria .imagen {
+      transition: all ease-out 500ms;
+      position: absolute; }
+      .lg-galery .galeria .imagen img {
+        object-fit: cover;
+        width: 100%;
+        height: 100vh; }
+    .lg-galery .galeria .gal-link {
+      position: relative;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .lg-galery .galeria .gal-link a {
+        text-decoration: none;
+        color: #14213d;
+        font-size: 1.3em;
+        font-weight: bold; }
+      .lg-galery .galeria .gal-link .red {
+        color: #bb4d32; }
+    .lg-galery .galeria .gal-link:hover {
+      background-color: rgba(165, 160, 160, 0.3); }
+
+.sub-gal .conjunto {
+  text-align: center;
+  margin-bottom: 2em; }
+  .sub-gal .conjunto .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bb4d32;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%; }
+  .sub-gal .conjunto .h2 {
+    color: #bb4d32;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 0 1em; }
+  .sub-gal .conjunto .sub img {
+    margin: .5em; }
+
+.container .terraza, .container .vegetales {
+  display: flex;
+  width: 85%;
+  margin: auto; }
+  .container .terraza .texto, .container .vegetales .texto {
+    display: flex;
+    flex-direction: column;
+    width: 50%; }
+    .container .terraza .texto .title, .container .vegetales .texto .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #bb4d32;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      width: 100%; }
+      .container .terraza .texto .title .h3, .container .vegetales .texto .title .h3 {
+        margin: 2em;
+        color: #14213d; }
+    .container .terraza .texto p, .container .vegetales .texto p {
+      margin: 2em;
+      line-height: 1.5em;
+      font-size: 1em;
+      color: #FF890A;
+      line-height: 3em;
+      width: 100%;
+      padding: 2em;
+      margin: 0 auto; }
+  .container .terraza .image, .container .vegetales .image {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    width: 50%; }
+    .container .terraza .image img, .container .vegetales .image img {
+      height: 80%;
+      vertical-align: middle;
+      width: 80%;
+      margin-top: 20%; }
+  .container .terraza .parr-sec, .container .vegetales .parr-sec {
+    display: none; }
+
+.container .vegetales .texto-dos {
+  display: none; }
+
+.container .vegetales .image {
+  height: auto; }
+  .container .vegetales .image .second {
+    display: none; }
+
+.container .carta {
+  background-color: rgba(255, 166, 0, 0.274);
+  padding-left: 2em;
+  padding-right: 2em;
+  margin: 3em; }
+  .container .carta .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bb4d32;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #14213d; }
+    .container .carta .title .h3 {
+      padding-left: 2em;
+      padding-right: 2em; }
+    .container .carta .title .line {
+      color: #14213d; }
+  .container .carta .carnes .pescado {
+    justify-self: right; }
+  .container .carta span {
+    color: #bb4d32; }
+
+main .formulario {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto; }
+  main .formulario .form-header {
+    width: 100%; }
+    main .formulario .form-header h4 {
+      text-align: center;
+      padding: 2em;
+      color: #bb4d32; }
+      main .formulario .form-header h4 i {
+        margin-right: 1em; }
+  main .formulario .formulario .form-body {
+    width: 100%; }
+    main .formulario .formulario .form-body .form-nombre {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 1em; }
+      main .formulario .formulario .form-body .form-nombre .label {
+        margin-bottom: .5em;
+        margin-right: .5em;
+        color: #bb4d32; }
+      main .formulario .formulario .form-body .form-nombre span {
+        color: #bb4d32; }
+      main .formulario .formulario .form-body .form-nombre .inp-name {
+        width: 100% !important;
+        padding: .5em; }
+    main .formulario .formulario .form-body .datos-grales {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      main .formulario .formulario .form-body .datos-grales .mail, main .formulario .formulario .form-body .datos-grales .phone, main .formulario .formulario .form-body .datos-grales .personas, main .formulario .formulario .form-body .datos-grales .check {
+        width: 45%; }
+        main .formulario .formulario .form-body .datos-grales .mail .label, main .formulario .formulario .form-body .datos-grales .phone .label, main .formulario .formulario .form-body .datos-grales .personas .label, main .formulario .formulario .form-body .datos-grales .check .label {
+          margin-bottom: 1em;
+          color: #bb4d32; }
+        main .formulario .formulario .form-body .datos-grales .mail span, main .formulario .formulario .form-body .datos-grales .phone span, main .formulario .formulario .form-body .datos-grales .personas span, main .formulario .formulario .form-body .datos-grales .check span {
+          color: #bb4d32; }
+        main .formulario .formulario .form-body .datos-grales .mail .inp-dato, main .formulario .formulario .form-body .datos-grales .phone .inp-dato, main .formulario .formulario .form-body .datos-grales .personas .inp-dato, main .formulario .formulario .form-body .datos-grales .check .inp-dato {
+          width: 100%;
+          margin-bottom: 1em;
+          padding: .5em; }
+      main .formulario .formulario .form-body .datos-grales .phone .label {
+        margin-bottom: 1em;
+        color: #bb4d32; }
+      main .formulario .formulario .form-body .datos-grales .phone span {
+        color: #bb4d32; }
+      main .formulario .formulario .form-body .datos-grales .personas .label {
+        margin-bottom: 1em;
+        color: #bb4d32; }
+      main .formulario .formulario .form-body .datos-grales .check .label {
+        margin-bottom: 1em;
+        color: #bb4d32; }
+      main .formulario .formulario .form-body .datos-grales .check span {
+        color: #bb4d32; }
+  main .formulario .form-footer {
+    margin: auto;
+    padding: 1em; }
+    main .formulario .form-footer .button {
+      padding: .5em;
+      margin: .5em;
+      border: 1px solid #fff;
+      border-radius: 10px; }
+    main .formulario .form-footer .btn-send {
+      color: #fff;
+      background-color: #FF890A;
+      border: 1px solid;
+      border-radius: 10px; }
+    main .formulario .form-footer .btn-send:hover {
+      background-color: #bb4d32; }
+
+main .newsletter {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 3em;
+  background-color: #ede9f0; }
+  main .newsletter .news-izq {
+    width: 45%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main .newsletter .news-izq h4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #bb4d32;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      margin: 1em 0; }
+    main .newsletter .news-izq .text-center {
+      margin: 2em;
+      line-height: 1.5em;
+      font-size: 1em;
+      color: #FF890A;
+      line-height: 3em; }
+  main .newsletter .news-der {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    main .newsletter .news-der .form-news {
+      display: flex;
+      flex-direction: column;
+      margin: 1em;
+      align-items: end; }
+      main .newsletter .news-der .form-news .div-news {
+        margin: 1.5em; }
+        main .newsletter .news-der .form-news .div-news .label {
+          color: #FF890A;
+          font-weight: bold; }
+        main .newsletter .news-der .form-news .div-news .inp-news {
+          background-color: transparent;
+          border: none;
+          border-bottom: 1px solid #FF890A; }
+        main .newsletter .news-der .form-news .div-news .inp-news::placeholder {
+          color: #FF890A !important;
+          font-style: italic !important; }
+      main .newsletter .news-der .form-news .boton {
+        width: 100%;
+        text-align: center; }
+        main .newsletter .news-der .form-news .boton .btn-form {
+          padding: .5em;
+          color: #fff;
+          background-color: #FF890A;
+          border: 1px solid;
+          border-radius: 10px; }
+        main .newsletter .news-der .form-news .boton .btn-form:hover {
+          background-color: #bb4d32; }
+
+@media (max-width: 767px) {
+  body .navbar-brand {
+    margin: auto; }
+  body .nav-item {
+    padding-right: 0 !important; }
+  body .dropdown-menu .dropdown-item {
+    text-align: center; }
+  body main .presentacion {
+    position: relative;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    background: transparent; 
+    height: fit-content}
+    body main .presentacion h1, body main .presentacion span {
+      color: #bb4d32; }
+    body main .presentacion h1 {
+      font-size: 2rem; }
+    body main .presentacion span {
+      font-size: 0.8rem !important; }
+  body main .container-check {
+    width: 100%; }
+    body main .container-check .row-form {
+      flex-direction: column; }
+      body main .container-check .row-form .container-check {
+        margin-top: .5em; }
+        body main .container-check .row-form .container-check label {
+          margin: .3em 0; }
+        body main .container-check .row-form .container-check .check {
+          padding: .5em;
+          margin-bottom: .5em;
+          margin: auto;
+          text-align: center; }
+  body main .container-fluid-index .description {
+    width: 95%; }
+    body main .container-fluid-index .description .h2-description {
+      padding: 2em 0; }
+    body main .container-fluid-index .description .text-center {
+      margin: 1em 0;
+      line-height: 1.5em; }
+  body main .vivencias .imgs {
+    flex-direction: column; }
+    body main .vivencias .imgs .img {
+      width: 100%;
+      margin-bottom: 3em !important;
+      margin: auto; }
+      body main .vivencias .imgs .img img {
+        width: inherit; }
+      body main .vivencias .imgs .img .ver {
+        display: contents;
+        color: #000;
+        margin: 1em 0 2em 0; }
+        body main .vivencias .imgs .img .ver span {
+          display: block;
+          color: #14213d !important; }
+  body main .fotos .palmera .parrafoImg {
+    margin: 1em 0;
+    line-height: 2em;
+    text-align: center; }
+  body main .fotos .piscina .parrafoImg {
+    margin: 1em 0;
+    line-height: 2em;
+    text-align: center; }
+  body main .promociones .p-prom {
+    font-size: 1rem !important; }
+  body .services {
+    background-color: rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    background-position: center; }
+    body .services .masajes {
+      background-position: center;
+      background-size: cover; }
+      body .services .masajes .descripcion-masajes {
+        width: 90% !important;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.75); }
+        body .services .masajes .descripcion-masajes .title {
+          margin-top: 0; }
+        body .services .masajes .descripcion-masajes p {
+          margin: 1em 0;
+          line-height: 2em;
+          text-align: center;
+          margin-bottom: 0; }
+    body .services .spa {
+      background-size: cover; }
+      body .services .spa .descripcion-spa {
+        width: 90%;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.75); }
+        body .services .spa .descripcion-spa .title {
+          margin-top: 0; }
+        body .services .spa .descripcion-spa p {
+          margin: 1em 0;
+          line-height: 2em;
+          text-align: center; }
+    body .services .cabalgatas {
+      background-size: cover; }
+      body .services .cabalgatas .descripcion-cabalgatas {
+        width: 90%;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.75); }
+        body .services .cabalgatas .descripcion-cabalgatas .title {
+          margin-top: 0; }
+        body .services .cabalgatas .descripcion-cabalgatas p {
+          margin: 1em 0;
+          line-height: 2em;
+          text-align: center; }
+  body .lg-galery .galeria {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; }
+    body .lg-galery .galeria .img-gal {
+      height: 50vh; }
+      body .lg-galery .galeria .img-gal .imagen img {
+        height: 50vh;
+        width: 100vw; }
+  body .main-resto {
+    padding: 0; }
+    body .main-resto .resto-bar {
+      display: flex;
+      flex-direction: column; }
+      body .main-resto .resto-bar .terraza, body .main-resto .resto-bar .container .vegetales, .container body .main-resto .resto-bar .vegetales {
+        flex-direction: column;
+        width: 100%; }
+        body .main-resto .resto-bar .terraza .texto, body .main-resto .resto-bar .container .vegetales .texto, .container body .main-resto .resto-bar .vegetales .texto {
+          width: 100%;
+          text-align: center;
+          line-height: 1.5em; }
+          body .main-resto .resto-bar .terraza .texto p, body .main-resto .resto-bar .container .vegetales .texto p, .container body .main-resto .resto-bar .vegetales .texto p {
+            margin: 1em 0;
+            line-height: 2em;
+            text-align: center; }
+          body .main-resto .resto-bar .terraza .texto .parr, body .main-resto .resto-bar .container .vegetales .texto .parr, .container body .main-resto .resto-bar .vegetales .texto .parr {
+            display: none; }
+        body .main-resto .resto-bar .terraza .image, body .main-resto .resto-bar .container .vegetales .image, .container body .main-resto .resto-bar .vegetales .image {
+          width: 100%; }
+          body .main-resto .resto-bar .terraza .image .second, body .main-resto .resto-bar .container .vegetales .image .second, .container body .main-resto .resto-bar .vegetales .image .second {
+            display: none; }
+        body .main-resto .resto-bar .terraza .parr-sec, body .main-resto .resto-bar .container .vegetales .parr-sec, .container body .main-resto .resto-bar .vegetales .parr-sec {
+          display: block;
+          text-align: center; }
+          body .main-resto .resto-bar .terraza .parr-sec p, body .main-resto .resto-bar .container .vegetales .parr-sec p, .container body .main-resto .resto-bar .vegetales .parr-sec p {
+            font-size: 1em;
+            color: #FF890A;
+            line-height: 2em;
+            width: 100%;
+            margin: 1em auto;
+            padding: 2em; }
+      body .main-resto .resto-bar .vegetales {
+        width: 100%; }
+        body .main-resto .resto-bar .vegetales .texto-dos {
+          display: none !important; }
+        body .main-resto .resto-bar .vegetales .img-sec {
+          display: none; }
+      body .main-resto .resto-bar .carta {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 3em; }
+        body .main-resto .resto-bar .carta .pas-pes {
+          display: flex;
+          flex-direction: column; }
+  body .main-form {
+    padding: .5em; }
+    body .main-form .formulario {
+      width: 100%;
+      flex-direction: column; }
+      body .main-form .formulario .form-body .form-nombre {
+        padding: 0 5%; }
+        body .main-form .formulario .form-body .form-nombre .label {
+          margin-right: 0;
+          width: 80%; }
+      body .main-form .formulario .form-body .datos-grales {
+        flex-direction: column; }
+        body .main-form .formulario .form-body .datos-grales .gral {
+          width: 90%;
+          margin: auto; }
+    body .main-form .newsletter {
+      flex-direction: column;
+      width: 100%; }
+      body .main-form .newsletter .news-izq {
+        width: 100%; }
+        body .main-form .newsletter .news-izq .text-center {
+          margin: 1em 0;
+          line-height: 2em;
+          text-align: center; }
+      body .main-form .newsletter .news-der {
+        text-align: center; }
+        body .main-form .newsletter .news-der .form-news {
+          align-items: center; }
+  body footer .footer {
+    display: flex;
+    flex-direction: column; }
+    body footer .footer .col {
+      width: 100%;
+      flex-direction: column;
+      text-align: center; }
+      body footer .footer .col .logotipo {
+        width: 100%;
+        text-align: center; }
+        body footer .footer .col .logotipo img {
+          margin: auto; }
+      body footer .footer .col .lista {
+        text-align: center; }
+        body footer .footer .col .lista ul {
+          padding: 0;
+          margin-top: 1em; }
+      body footer .footer .col .redes {
+        justify-content: center;
+        padding: 0; }
+      body footer .footer .col ul {
+        padding: 0; } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  main {
+    padding: 0; }
+    main .presentacion {
+      position: absolute;
+      top: 40% !important; }
+    main .container-check {
+      width: 90%;
+      margin: auto; }
+      main .container-check .row-form {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr; }
+        main .container-check .row-form .check {
+          width: 50% !important; }
+          main .container-check .row-form .check .block {
+            display: flex;
+            align-items: center; }
+    main .vivencias .imgs {
+      display: flex;
+      flex-wrap: wrap !important;
+      justify-content: space-around; }
+      main .vivencias .imgs .dos {
+        display: block !important;
+        text-align: center;
+        color: #14213d;
+        margin-top: 1em; }
+      main .vivencias .imgs .img-tres {
+        margin-top: 2em; }
+      main .vivencias .imgs .foto {
+        height: auto !important; }
+    main .fotos {
+      background-color: #ede9f0; }
+      main .fotos .pic .palmera {
+        margin-top: 0;
+        padding-top: 2em; }
+    main .promociones .tarjeta {
+      height: 100% !important; }
+      main .promociones .tarjeta .bg-naranja {
+        height: 20%; }
+    main .services .masajes {
+      background-size: cover; }
+      main .services .masajes .descripcion-masajes {
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0.75); }
+        main .services .masajes .descripcion-masajes .title {
+          margin-top: 0; }
+        main .services .masajes .descripcion-masajes .reflexologia p {
+          margin-bottom: 0; }
+    main .services .spa {
+      background-size: cover; }
+      main .services .spa .descripcion-spa {
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0.75); }
+        main .services .spa .descripcion-spa .title {
+          margin-top: 0; }
+    main .services .cabalgatas {
+      background-size: cover; }
+      main .services .cabalgatas .descripcion-cabalgatas {
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0.75); }
+        main .services .cabalgatas .descripcion-cabalgatas .title {
+          margin-top: 0; }
+    main .galeria {
+      grid-template-columns: 50% 50% !important;
+      grid-template-rows: 100vh 100vh; }
+      main .galeria .img-gal {
+        height: 100vh; }
+        main .galeria .img-gal .playa {
+          height: 100vh; }
+    main .terraza, main .container .vegetales, .container main .vegetales {
+      flex-direction: column; }
+      main .terraza .texto, main .container .vegetales .texto, .container main .vegetales .texto {
+        width: 100% !important; }
+        main .terraza .texto .parr, main .container .vegetales .texto .parr, .container main .vegetales .texto .parr {
+          display: none; }
+      main .terraza .image, main .container .vegetales .image, .container main .vegetales .image {
+        display: flex;
+        flex-direction: row !important;
+        width: 100% !important;
+        justify-content: center; }
+        main .terraza .image img, main .container .vegetales .image img, .container main .vegetales .image img {
+          width: 45%;
+          height: 40vh;
+          padding: 1em; }
+        main .terraza .image .parr-sec, main .container .vegetales .image .parr-sec, .container main .vegetales .image .parr-sec {
+          display: block !important;
+          margin-top: 20%;
+          margin-left: 1em;
+          width: fit-content; }
+          main .terraza .image .parr-sec p, main .container .vegetales .image .parr-sec p, .container main .vegetales .image .parr-sec p {
+            margin: 2em;
+            line-height: 1.5em;
+            font-size: 1em;
+            color: #FF890A;
+            line-height: 3em;
+            width: 100%;
+            padding: 2em;
+            margin: 0 auto; }
+    main .vegetales {
+      justify-content: center; }
+      main .vegetales .texto {
+        display: none !important; }
+      main .vegetales .texto-dos {
+        display: flex;
+        flex-direction: column;
+        text-align: justify; }
+        main .vegetales .texto-dos .title {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #bb4d32;
+          margin-top: 2em;
+          margin-bottom: 2em; }
+          main .vegetales .texto-dos .title h3 {
+            color: #bb4d32;
+            padding-top: 2em;
+            padding-bottom: 2em;
+            margin: 0 1em; }
+        main .vegetales .texto-dos p {
+          margin: 2em;
+          line-height: 1.5em;
+          font-size: 1em;
+          color: #FF890A;
+          line-height: 3em;
+          width: 100%;
+          padding: 2em;
+          margin: 0 auto; }
+      main .vegetales .image {
+        flex-wrap: wrap; }
+        main .vegetales .image p {
+          margin: 2em;
+          line-height: 1.5em;
+          font-size: 1em;
+          color: #FF890A;
+          line-height: 3em;
+          text-align: -webkit-center; }
+        main .vegetales .image .second {
+          display: block !important; }
+    main .formulario {
+      width: 90%; }
+    main .newsletter .news-izq .text-center {
+      line-height: 1.5em; }
+    main .newsletter .news-der {
+      text-align: center; }
+      main .newsletter .news-der .form-news {
+        flex-direction: column; }
+        main .newsletter .news-der .form-news .div-news {
+          display: flex;
+          flex-direction: column; }
+          main .newsletter .news-der .form-news .div-news .label {
+            display: contents; }
+    main footer .logotipo {
+      width: 70%; }
+      main footer .logotipo img {
+        width: 100%; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem; }
+
+header .logo {
+  width: 50%; }
+
+header .nav-item {
+  padding-right: 2rem; }
